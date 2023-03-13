@@ -1,3 +1,54 @@
 @tailwind base;
+* {
+  font-family: "Montserrat", monospace;
+  box-sizing: border-box;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0px;
+}
+.LandingH1 {
+  font-family: "Black Han Sans", sans-serif;
+}
+.LandingBG {
+  background-color: #f1f1f1;
+  opacity: 0.8;
+  background-image: radial-gradient(#0d0f31 0.75px, transparent 0.75px),
+    radial-gradient(#0d0f31 0.75px, #f1f1f1 0.75px);
+  background-size: 35px 30px;
+  background-position: 0 0, 15px 15px;
+}
+.CircleBG {
+  background: url("../public/GreenCircle.svg");
+  background-repeat: no-repeat;
+  background-position-y: 0%;
+  background-position-x: 120%;
+}
+.CircleBG-L {
+  background: url("../public/GreenCircle.svg");
+  background-repeat: no-repeat;
+  background-position-y: 0%;
+  background-position-x: -20%;
+}
+
+.Cardz {
+  width: 260px;
+  height: 211px;
+  left: 786px;
+  top: 2186.16px;
+
+  background: radial-gradient(
+      100% 100% at 0% 0%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.76) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  backdrop-filter: blur(21px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 40px;
+}
+
 @tailwind components;
 @tailwind utilities;

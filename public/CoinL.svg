@@ -1,0 +1,47 @@
+<svg width="322" height="322" viewBox="0 0 322 322" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d_210_507)">
+<rect x="64" y="28.6562" width="167.307" height="167.307" transform="rotate(-9.86208 64 28.6562)" fill="url(#pattern0)"/>
+<g style="mix-blend-mode:overlay">
+<mask id="mask0_210_507" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="64" y="0" width="194" height="194">
+<rect x="64" y="28.6562" width="167.307" height="167.307" transform="rotate(-9.86208 64 28.6562)" fill="url(#pattern1)"/>
+</mask>
+<g mask="url(#mask0_210_507)">
+<rect x="64" y="28.6562" width="167.307" height="167.307" transform="rotate(-9.86208 64 28.6562)" fill="#0EAE25"/>
+</g>
+</g>
+<rect x="64" y="28.6562" width="167.307" height="167.307" transform="rotate(-9.86208 64 28.6562)" fill="url(#pattern2)"/>
+<g style="mix-blend-mode:overlay">
+<mask id="mask1_210_507" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="64" y="0" width="194" height="194">
+<rect x="64" y="28.6562" width="167.307" height="167.307" transform="rotate(-9.86208 64 28.6562)" fill="url(#pattern3)"/>
+</mask>
+<g mask="url(#mask1_210_507)">
+<rect x="64" y="28.6562" width="167.307" height="167.307" transform="rotate(-9.86208 64 28.6562)" fill="#EEC57C"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_210_507" x="0" y="0" width="321.49" height="321.49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="64"/>
+<feGaussianBlur stdDeviation="32"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.558333 0 0 0 0 0.189833 0 0 0 0.53 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_210_507"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_210_507" result="shape"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_210_507" transform="scale(0.0005)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_210_507" transform="scale(0.0005)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_210_507" transform="scale(0.0005)"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_210_507" transform="scale(0.0005)"/>
+</pattern>
+
+</defs>
+</svg>
